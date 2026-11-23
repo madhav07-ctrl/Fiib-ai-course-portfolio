@@ -1,0 +1,49 @@
+
+{
+ "timeZone": "Asia/Kolkata",
+ "exceptionLogging": "STACKDRIVER",
+ "runtimeVersion": "V8",
+ "addOns": {
+ "common": {
+ "name": "AFW External API Connector",
+ "logoUrl": "https://www.gstatic.com/images/branding/product/1x/googleg_48dp.png",
+ "useLocaleFromApp": true
+ },
+ "flows": {
+ "workflowElements": [
+ {
+ "id": "afwStudentLookup",
+ "state": "ACTIVE",
+ "name": "AFW Student Lookup",
+ "description": "Looks up a student's structured record from Supabase.",
+ "workflowAction": {
+ "inputs": [
+ {
+ "id": "studentEmail",
+ "description": "Student email address",
+ "cardinality": "SINGLE",
+ "dataType": {
+ "basicType": "STRING"
+ }
+ }
+ ],
+ "outputs": [
+ {
+ "id": "studentRecord",
+ "description": "Student record returned by Supabase",
+ "cardinality": "SINGLE",
+ "dataType": {
+ "basicType": "STRING"
+ }
+ }
+ ],
+ "onConfigFunction": "onConfigStudentLookup",
+ "onExecuteFunction": "onExecuteStudentLookup"
+ }
+}
+   
+ }
+ }
+
+ }
+ 
