@@ -143,7 +143,7 @@ The proposed 30-day pilot targets provide a practical framework for evaluating w
 
 ## 9. Supporting Presentation
 
-[View / Download WIP 2 – Operational Analysis](./Windigitaly%20Operational%20PPt.pptx)
+[View / Download WIP 2 Presentation](./WIP_2_Operational_Analysis.pptx)
 
 ## 10. Source and Evidence
 
