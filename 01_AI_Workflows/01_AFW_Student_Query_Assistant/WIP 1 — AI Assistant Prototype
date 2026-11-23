@@ -1,0 +1,67 @@
+# WIP 1 — Windigitaly AI Lead Conversion Copilot
+
+## 1. Project Overview
+
+WIP 1 focuses on developing the initial prototype of an AI-assisted Lead Conversion Copilot using Lovable.
+
+The prototype is designed to help manage business enquiries, organize leads, monitor their sales pipeline, and identify follow-up actions.
+
+## 2. Development Platform
+
+- Platform: Lovable
+- Project: Windigitaly AI — Lead Conversion Copilot
+- Version: 1.0 Prototype
+
+## 3. Prototype Link
+
+[Open Windigitaly AI Lead Conversion Copilot](https://windigitaly-lead-conversion-copilot.lovable.app/)
+
+[Open Lovable Project Editor](https://lovable.dev/projects/65f65c38-c681-40f5-ab2f-a81506abeece)
+
+## 4. Main Features Developed
+
+### A. Overview Dashboard
+- Displays total leads.
+- Shows leads requiring follow-up.
+- Tracks qualified and won leads.
+- Displays recent leads.
+- Shows lead status distribution.
+- Recommends next actions.
+
+### B. Lead Management
+The prototype includes lead records with business names, service requirements, enquiry sources, priority levels, and sales statuses.
+
+### C. AI Assistant
+An AI Assistant section is included in the navigation for enquiry analysis and lead assistance.
+
+### D. Message Studio
+A dedicated Message Studio section is included for managing lead communication.
+
+### E. Insights
+An Insights section is included to support the review of lead pipeline performance.
+
+### F. Settings and Guide
+A separate section is included for application settings and usage guidance.
+
+## 5. Sample Dashboard Data
+
+The screenshots show fictional demonstration data:
+
+| Metric | Count |
+|---|---:|
+| Total Leads | 6 |
+| Need Follow-up | 4 |
+| Qualified | 1 |
+| Won | 1 |
+
+Lead statuses shown include New, Qualified, Proposal Sent, Follow-up, Won, and Lost.
+
+## 6. Prototype Technology and Limitations
+
+The displayed Version 1 prototype uses local rules and templates. It does not use external AI, and the dashboard states that data stays in the browser.
+
+Therefore, this stage demonstrates the interface and initial lead-management concept rather than a fully integrated AI automation system.
+
+## 7. Outcome
+
+WIP 1 established the initial user interface and functional concept for a Lead Conversion Copilot. It provided the foundation for further development of enquiry analysis, lead management, follow-up support, and automation.
